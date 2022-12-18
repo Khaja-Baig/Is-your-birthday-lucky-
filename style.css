@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+    background-color: rgba(76, 69, 83, 0.648);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#out-put{
+    border: solid black 2px;
+    padding: 2rem;
+    color: azure;
+
+}
+#Date-Of-Birth{
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    padding: 0.90rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#Lucky-number{
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    padding: 0.90rem;
+    cursor: pointer;
+}
+#check-button{
+    font-size: medium;
+    border-radius: 6rem;
+    margin-top: 0.5rem;
+    background-color: rgba(41, 206, 74, 0.831);
+    width: 20%;
+    margin: 1rem;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 1rem;
+}
+label {
+    margin: 0.5rem;
+    font-weight: 500;
+    font-size: larger;
+    padding-top: 1rem;
+  }
+::placeholder{
+    color: black;
+}
+
+.main_con{
+    margin: 10rem;
+    padding-top: 6rem;
+}
